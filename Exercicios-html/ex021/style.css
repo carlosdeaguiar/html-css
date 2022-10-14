@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div {
+    background-color: rgb(9, 134, 134);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid saddlebrown;
+    border-radius: 50%;
+    display: inline-block
+}
+
+div:hover {
+    background-color: brown;
+}
+
+div#principal {
+    background-color: blueviolet;
+    height: 20px;
+    right: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

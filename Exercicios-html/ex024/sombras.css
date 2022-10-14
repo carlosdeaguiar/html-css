@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+main {
+    padding: 50px;
+    font: italic 16px Arial;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.068);
+    background-color: rgb(0, 0, 0);
+    color: rgba(240, 170, 170, 0.719);
+    border-radius: 20px;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+main > article {
+    text-align: center;
+}

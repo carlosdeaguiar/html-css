@@ -1,0 +1,78 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-style: normal;
+    font-weight: bolder;
+}
+
+header > h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+header > p {
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+nav > a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-bottom: 0%;
+    font-size: 1,5em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #016612, #48EA63);
+    color: white;
+    font-family: 'Roboto';
+}
+
+nav > a:hover {
+    color: black;
+}
+
+section > h2 {
+    background-image: linear-gradient(to left, white, #48ea6365, #0166127a);
+    color: #016612;
+    font-family: 'idroid';   
+}
+
+section > h1 {
+    color: #016612;
+    font-family: idroid;
+}
+ 
+main {
+    width: 1000px;
+    margin: 0% auto 0% auto;
+    margin: #016612;
+}
+section > picture {
+    margin: 0px auto 0px auto;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+div {
+    background-color: #48EA63;
+    border-radius: 20px
+}
+
+div > h3 {
+    color: white;
+    font: normal bold 1em Arial;
+    background-color: #016612;
+    padding: 20px 20px;
+}
