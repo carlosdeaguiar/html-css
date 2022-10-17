@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: black;
+    height: 300px;
+}
+
+header > h1 {
+    color: white;
+    font-family: 'Passion One';
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    font-family: 'Sriracha';
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-bottom: 2em;
+}
+
+section {
+    padding-top: 10vh;;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha';
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    font-family: 'Sriracha', Verdana;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 2em;
+
+
+}
+
+section#joaninha {
+    background-image: url(imagens/background001.jpg);
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+section#joaninha > p {
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 2em;
+    font-family: 'Sriracha', Verdana;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    width: 300px;
+}
+
+
+section#jornal {
+    background-image: url(imagens/background002.jpg);
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+section#jornal > p {
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 2em;
+    font-family: 'Sriracha', Verdana;
+    padding-left: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+footer {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    height: 30px; 
+}
+
+p#especial {
+    padding: 0%;
+}
